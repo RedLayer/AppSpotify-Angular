@@ -14,7 +14,7 @@ interface Artistas {
 export class SpotifyService {
   artistas: [];
   urlSpotify = 'https://api.spotify.com/v1';
-  token = 'BQBRrtk2CiG7M5JiclAVtq7xxgkXcd08zm29-2iDVb8CTpXLuGND69629pwuqyTcGRvRchcySOP7RW4AdQU';
+  token = 'SPOTIFY_API_TOKEN_FROM_POSTMAN';
 
   constructor(public http: HttpClient) {
     console.log('Servicio Spotify Listo');
